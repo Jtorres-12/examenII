@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+:root{
+	--color-textos:#242230;
+	--color-primario:#ff5a5a;
+	--color-rosa:#fffcf9;
+	--color-titulos:#161b37;
+	--fondo-cta:#ffd2b1;
+	--fondo-footer:#161b37;
+}
+body{
+	font-size: 18px;
+	color: var(--color-textos);
+	font-weight: 400;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font:'Nunito Sans', sans-serif;	
+	color: var(--color-titulos);
+	font-weight: 600;
+}
+
+h1{
+	font-size: 57px;
+	color: var(--color-titulos);
+}
+
+h2{
+	font-size: 57px;
+	color: var(--color-titulos);
+}
+
+h3 {
+	font-size: 25px;
+	color: var(--color-titulos);
+	font-weight: 700;
+}
+
+header{
+	background-color: #fff;
+	padding: 15px 0;
+	border-bottom: 1px solid #eee;
+}
+
+#Get Started { 
+	background-color: var(--color-rosa);
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#rank website {
+	margin-bottom: 20%;
+	padding: 15%;
+}
+
+#hero{
+	background-color: var(--fondo-cta);
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 40;
+	text-align: center;
+	position: static;
+	padding: 10% 0;
+}
+
+footer {
+	background-color: var(--fondo-footer); 
+	padding: 5%;
+	color: #fff;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
